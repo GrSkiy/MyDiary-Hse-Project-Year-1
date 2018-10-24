@@ -48,19 +48,17 @@ nav {
 color: red;
 } */
 body {
-  font-family: sans-serif;
+  font-family: 'Roboto Slab', serif;
   font-style: normal;
+  background-color: #eee;
 }
 
 .header {
   height: 800px;
-  background-color: rgb(15, 14, 18)
+  background-color: rgb(15, 14, 18);
 }
 
-.content {
-  background-color: #eee;
-  height: 800px;
-}
+
 .parallax-window {
     min-height: 600px;
     background: transparent;
@@ -78,7 +76,6 @@ body {
 }
 
 .header span {
-
   background-color: #eee;
   text-align: center;
   position: absolute;
@@ -86,16 +83,45 @@ body {
   font-weight: 400;
   right: 10vh;
   bottom: 20vh;
-
+  height: 120px;
 }
 
-h2 {
-  font-size: 200px;
+#head, .header span, .content h2, .h2 {
+  font-family: 'Roboto Slab', serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: rgb(15, 14, 18);
+}
+
+.content {
+  background-color: #eee;
+  height: 800px;
+  margin: 0 10vh;
+  position: relative;
+}
+
+.content h2 {
+  font-size: 80px;
+  position: absolute;
+  top: 20px;
+}
+
+.h2 {
+  font-size: 30px;
+  font-style: italic;
+  font-weight: 400;
+  position: relative;
+  top: 20vh;
+  line-height: 60px;
+  width: 370px;
+
 }
 
 .parallax-window {
   height: 1000px;
-
   position: relative;
-
 }
+
+/* rgb(0, 104, 55)
+rgb(0, 113, 187)
+rgb(229, 229, 229) */
