@@ -1,0 +1,113 @@
+section {
+  width: 1000px;
+  margin: 0 auto;
+  color: rgb(15, 14, 18);
+  background-color: #eee;
+  min-height: 100vh;
+  position: relative;
+}
+
+body {
+  background-color: rgb(15, 14, 18);
+}
+h1 {
+  font-family:'Merriweather', serif;
+  font-size: 60px;
+  color: rgb(15, 14, 18);
+  position: absolute;
+  left: 5vh;
+  top: 5vh;
+}
+/* Было так же сложно, как и сейчас. */
+h2 {
+  font-size: 40px;
+  position: absolute;
+  width: 500x;
+  left: 9vh;
+  bottom: 9vh;
+
+  font-family: 'Merriweather', serif;
+
+  color: #000000;
+
+}
+
+.rectangle {
+  position: absolute;
+  left: 5vh;
+  bottom: 5vh;
+}
+
+.small_rectangle {
+  position: absolute;
+  right: 5vh;
+  top: 19vh;
+}
+
+#prosmotr {
+  position: absolute;
+  left: 10vh;
+  top: 20vh;
+}
+
+#prosmotr2 {
+  position: absolute;
+  left: 10vh;
+  bottom: 20vh;
+}
+
+#prosmotr3 {
+  position: absolute;
+  right: 10vh;
+  bottom: 20vh;
+}
+
+#prosmotr4 {
+  position: absolute;
+  right: 10vh;
+  top: 25vh;
+}
+
+#cel1{
+  position: absolute;
+  right: 10vh;
+  top: 24vh;
+}
+
+#cel2 {
+  position: absolute;
+  left: 10vh;
+  top: 29vh;
+}
+
+#net {
+  position: absolute;
+  top: 35vh;
+  left: 15vh;
+}
+
+/* Rectangle 3 */
+#super_rectangle {
+  position: absolute;
+  left: 5vh;
+  top: 4vh;
+  color: #eee;
+}
+
+#stopthat {
+  background-color: rgb(15, 14, 18);
+  color: #eee;
+  font-weight: bold;
+}
+
+#pobolshe {
+  position: absolute;
+  left: 5vh;
+  bottom: 5vh;
+}
+
+#pomenshe {
+  position: absolute;
+  right: 5vh;
+  top: 19vh;
+}
